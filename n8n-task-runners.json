@@ -1,8 +1,0 @@
-{
-    "task-runners": {
-      "n8n:core": {
-        "path": "/usr/local/lib/node_modules/n8n",
-        "arguments": ["task-runner"]
-      }
-    }
-  }

@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2025-05-03T19:21:15-03:00",
+    "exported_at": "2025-05-04T22:34:57-03:00",
     "name": "n8n",
     "author": "eletriom@eletriom.com.br",
     "description": "n8n \u00e9 uma ferramenta de automa\u00e7\u00e3o de fluxo de trabalho que permite conectar diferentes servi\u00e7os e aplica\u00e7\u00f5es de maneira visual.",
@@ -32,7 +32,7 @@
             "name": "Vers\u00e3o do n8n",
             "description": "Vers\u00e3o do n8n (deve corresponder \u00e0 vers\u00e3o da imagem Docker).",
             "env_variable": "N8N_VERSION",
-            "default_value": "1.90.2
+            "default_value": "1.90.2",
             "user_viewable": true,
             "user_editable": false,
             "rules": "required|string",
@@ -140,7 +140,7 @@
         },
         {
             "name": "Enforce Settings File Permissions",
-            "description": "Aplicar permissões seguras para arquivos de configuração",
+            "description": "Aplicar permiss\u00f5es seguras para arquivos de configura\u00e7\u00e3o",
             "env_variable": "N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS",
             "default_value": "true",
             "user_viewable": true,
@@ -150,7 +150,7 @@
         },
         {
             "name": "Ativar Task Runners",
-            "description": "Ativar os executores de tarefas (recomendado para versões futuras)",
+            "description": "Ativar os executores de tarefas (recomendado para vers\u00f5es futuras)",
             "env_variable": "N8N_RUNNERS_ENABLED",
             "default_value": "true",
             "user_viewable": true,
