@@ -31,7 +31,7 @@ Este repositório contém uma implementação do N8N ([https://n8n.io/](https://
 
 | Variável | Descrição | Valor Padrão |
 |----------|-----------|--------------|
-| `N8N_VERSION` | Versão do N8N a ser instalada | 1.90.2 |
+| `N8N_VERSION` | Versão do N8N a ser instalada | 1.91.2 |
 | `N8N_PROTOCOL` | Protocolo HTTP ou HTTPS | http |
 | `N8N_SECURE_COOKIE` | Uso de cookies seguros | false |
 | `GENERIC_TIMEZONE` | Timezone do servidor | UTC |
