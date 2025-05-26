@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.source="https://github.com/n8n-io/n8n"
 LABEL org.opencontainers.image.url="https://n8n.io"
 
 # Variáveis
-ARG N8N_VERSION=1.91.2
+ARG N8N_VERSION=latest
 ENV N8N_VERSION=${N8N_VERSION}
 ENV NODE_ENV=production
 ENV N8N_RELEASE_TYPE=stable
